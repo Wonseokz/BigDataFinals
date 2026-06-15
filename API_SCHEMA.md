@@ -2,11 +2,10 @@
 
 前端 DataService 会调用以下 REST API。实现一个后端服务（Flask / Spring Boot / Node.js），查询 Hive 并以如下 JSON 格式返回数据。
 
-**Base URL 配置**: 修改 `index.html` 第 243 行的 `API_BASE_URL` 和 `USE_MOCK`
+**Base URL 配置**: 修改 `index.html` 第 243 行的 `API_BASE_URL` 
 
 ```js
 const API_BASE_URL = 'http://127.0.0.1:8080/api';  
-const USE_MOCK = false;  // 改为 false 启用真实API
 ```
 
 所有接口返回格式: `Content-Type: application/json`，状态码 200 表示成功。
