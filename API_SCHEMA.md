@@ -1,6 +1,6 @@
 # 后端 API 接口规范
 
-前端 DataService 会调用以下 REST API。你需要在本虚拟机上实现一个后端服务（Flask / Spring Boot / Node.js），查询 Hive 并以如下 JSON 格式返回数据。
+前端 DataService 会调用以下 REST API。实现一个后端服务（Flask / Spring Boot / Node.js），查询 Hive 并以如下 JSON 格式返回数据。
 
 **Base URL 配置**: 修改 `index.html` 第 243 行的 `API_BASE_URL` 和 `USE_MOCK`
 
